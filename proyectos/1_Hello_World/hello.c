@@ -2,6 +2,7 @@
 
 #include <stdio.h>
 
+// Todos los programas en C tienen funciones (int main) pero esta es la inicial.
 // indicamos el inicio de nuestro programa
 int main()
 {
