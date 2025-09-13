@@ -1,2 +1,2 @@
 sudo apt-get install build-essential
-gcc
+sudo apt-get install gcc

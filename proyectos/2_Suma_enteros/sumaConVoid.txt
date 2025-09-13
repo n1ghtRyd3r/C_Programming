@@ -1,0 +1,33 @@
+#include <stdio.h>
+
+/*
+############# TEORIA 
+
+ - Una función "int" devuelve un valor
+
+ - Una función "void" no devulve nada, simplemente ejecuta su codigo
+
+*/ 
+
+void solicitud(int *value)
+{
+  printf("Indica el valor a sumar: ");
+  scanf("%d",value);
+};
+
+
+void sumatorio(int *val1, *val2)
+{
+  solicitud(val1);
+  solicitud(val2);
+}
+
+int main()
+{
+  int val1;
+  int val2;
+  sumatorio(&val1, &val2);
+  int suma = val1 + val2;
+  printf("El resultado de la suma de %d y %d es %d \n", val1, val2, suma);
+  return 0;
+}

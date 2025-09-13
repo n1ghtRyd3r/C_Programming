@@ -1,1 +1,1 @@
-gcc "Nombre del archivo .c" -o "nombre del programa"
+gcc "filename.c" -o "executable_name"
